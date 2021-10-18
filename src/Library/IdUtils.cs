@@ -56,5 +56,18 @@ namespace UnitTestAndDebug
 
             return true;
         }
+
+        public static bool DateIsValid(string date)
+        {
+            int lenght = date.Length;
+            if (lenght == 10)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }
